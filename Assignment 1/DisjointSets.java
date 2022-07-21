@@ -1,17 +1,30 @@
-// No collaborators
+/*
+
+Q2.
+We want to implement a disjoint set data structure with union and find operations. 
+In this question, we model a partition of n elements with distinct integers ranging from 0 to n − 1
+(i.e. each element is represented by an integer in [0, ··· , n − 1], and each integer in [0, ··· , n − 1]
+represent one element). We choose to represent the disjoint sets with trees, and to implement the
+forest of trees with an array named par. More precisely, the value stored in par[i] is parent of
+the element i, and par[i]==i when i is the root of the tree and thus the representative of the disjoint set.
+
+You will implement union by rank and the path compression technique seen in class. The rank is
+an integer associated with each node. Initially (i.e. when the set contains one single object) its
+value is 0. Union operations link the root of the tree with smaller rank to the root of the tree
+with larger rank. In the case where the rank of both trees is the same, the rank of the new root
+increases by 1. You can implement the rank with a specific array (called rank) that has been
+added to the template, or use the array par (this is tricky). Note that path compression does not
+change the rank of a node.
+
+The constructor takes one argument n (a strictly positive integer) that indicates the number of elements in 
+the partition, and initializes it by assigning a separate set to each element.
+
+Implemented methods find(int i) and union(int i, int j).
+
+*/
 
 import java.io.*;
 import java.util.*;
-
-
-/****************************
- *
- * COMP251 template file
- *
- * Assignment 1, Question 2
- *
- *****************************/
-
 
 public class DisjointSets {
 
@@ -79,7 +92,8 @@ public class DisjointSets {
         return par[i];
 
     }
-
+    
+    // testing
     public static void main(String[] args) {
 
         DisjointSets myset = new DisjointSets(6);
