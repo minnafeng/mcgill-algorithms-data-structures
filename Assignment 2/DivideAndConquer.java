@@ -1,13 +1,5 @@
 import java.math.BigInteger;
 
-/*
-
-For this question, you will need to implement a divide and conquer algorithm than given N and K as parameters, 
-your function returns the K-th letter in the N-th string in the fibonacci sequence. For example, if N = 7 and 
-K = 7, your algorithm must return X (please notice that the N=7 string in the sequence is “XYYXYYXYXYYXY”, and 
-the K=7 letter in that string is “X”, which is bold). You can safely assume that K is at most the length of the Nth string.
-
-*/
 
 public class DivideAndConquer {
 
