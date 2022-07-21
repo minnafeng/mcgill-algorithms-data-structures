@@ -1,3 +1,5 @@
+# Assignment 1
+
 ## Q1 - Chaining.java, OpenAddressing.java
 
 We want to compare the performance of hash tables implemented using chaining and open addressing. In this assignment, we will consider hash tables implemented using the multiplication and linear probing methods. Note that we are using the hash function h to define g.
