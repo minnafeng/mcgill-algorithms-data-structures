@@ -99,7 +99,8 @@ public class FordFulkerson {
         return answer;
     }
 
-
+    
+    // testing
     public static void main(String[] args){
         WGraph g = new WGraph();
         g.setSource(0);
