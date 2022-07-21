@@ -1,4 +1,14 @@
-// No collaborators
+/* 
+We want to compare the performance of hash tables implemented using chaining and open
+addressing. In this assignment, we will consider hash tables implemented using the multiplication
+and linear probing methods. Note that we are using the hash function h to define g.
+
+We want to estimate the number of collisions when inserting keys with respect to keys and the
+choice of values for A.
+
+Implemented OpenAddressing.probe, Chaining.chain, insertKey (in both Chaining and OpenAddressing), and OpenAddressing.removeKey.
+
+*/
 
 import java.io.*;
 import java.util.*;
