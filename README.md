@@ -1,5 +1,6 @@
 # mcgill-algorithms-data-structures
-McGill COMP 251 - W22
+McGill COMP 251 - W22  
+Prof. David Becerra
 
 ## Assignment 1
 Topics: Hash tables (chaining and open-addressing), disjoint sets, hash maps \
