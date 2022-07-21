@@ -2,7 +2,6 @@ import java.util.*;
 
 /*
 
-Q2.
 Dr. Robert Bruce Banner contacted me in order to help him with his weight training program. In particular, he is interested
 in creating a program that will allow him to lift 1000kg. Dr Banner has several (positive integers less or equal than 1000) weight plates,
 possibly of different weights, and its goal is to add some of the plates to a bar so that it can train with a weight as 
