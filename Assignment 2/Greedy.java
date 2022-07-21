@@ -47,7 +47,6 @@ public class Greedy {
      * that will be done at time i.
      */
     public int[] SelectAssignments() {
-        //TODO Implement this
 
         //Sort assignments
         //Order will depend on how compare function is implemented
