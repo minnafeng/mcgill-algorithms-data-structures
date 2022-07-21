@@ -1,11 +1,5 @@
 import java.util.*;
 
-/*
-
-Assignment class implemented in Greedy.java
-
-*/
-
 class Assignment implements Comparator<Assignment>{
     int number;
     int weight;
