@@ -19,8 +19,6 @@ change the rank of a node.
 The constructor takes one argument n (a strictly positive integer) that indicates the number of elements in 
 the partition, and initializes it by assigning a separate set to each element.
 
-Implemented methods find(int i) and union(int i, int j).
-
 */
 
 import java.io.*;
