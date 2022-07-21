@@ -2,7 +2,6 @@ import java.math.BigInteger;
 
 /*
 
-Q4. 
 For this question, you will need to implement a divide and conquer algorithm than given N and K as parameters, 
 your function returns the K-th letter in the N-th string in the fibonacci sequence. For example, if N = 7 and 
 K = 7, your algorithm must return X (please notice that the N=7 string in the sequence is “XYYXYYXYXYYXY”, and 
