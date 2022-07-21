@@ -19,7 +19,9 @@ Your task is to output a homeworkPlan: an array of length equal to the last dead
 Your homework plan should maximize the sum of the weights of completed assign- ments (regardless of the order on which they are completed). Please notice that an “≠1” value is allowed in between the homework plan.
 
 Given two assignments A1 and A2, the method should output:
+
 • 0, if the two items are equivalent
+
 • 1, if a1 should appear after a2 in the sorted list • -1, if a2 should appear after a1 in the sorted list
 
 Q4 - DivideAndConquer.java
