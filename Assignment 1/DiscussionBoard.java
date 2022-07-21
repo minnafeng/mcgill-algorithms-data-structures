@@ -40,8 +40,6 @@ Maria music
 Your algorithm must return an empty array [] given that none of the words in the post was
 used by every single user.
 
-Implemented entire class.
-
 */
 
 import java.util.*;
