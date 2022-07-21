@@ -123,6 +123,7 @@ public class TopologicalSort {
         return true;
     }
 
+    // testing
     public static void main(String[] args) {
         Hashtable<Integer, ArrayList<Integer>> graph = new Hashtable<>();
         graph.put(0,new ArrayList<Integer>(Arrays.asList(1,2)));
