@@ -2,6 +2,7 @@ import java.util.*;
 
 /*
 
+Q3.
 In this exercise, you will plan your homework with a greedy algorithm. The input is a list of homeworks
 defined by two arrays: deadlines and weights (the relative importance of the homework towards your final grade). 
 These arrays have the same size and they contain integers between 1 and 100. The index of each entry in the 
