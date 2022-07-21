@@ -2,7 +2,6 @@ import java.util.*;
 
 /*
 
-Q1.
 We provide a two-dimensional board with some holes on it, where each hole can contain a small ball. 
 During the game, and in each turn, you will be allowed to jump (horizontally or vertically) over an adjacent 
 ball into the empty hole next to the jumped ball in line with it. Once the jump is performed, the ball 
