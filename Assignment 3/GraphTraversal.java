@@ -1,22 +1,5 @@
 import java.util.*;
 
-/*
-During Dr Banner mission in the planet Titan, he got captured by the army of Thanos. Dr Banner is currently trapped 
-in a 3D jail and he needs your help to find the quickest way out. In his email, Dr Banner describes the jail to be 
-composed by unit cubes which may or may not be filled with indestructible rock. Dr Banner can only move one unit in 
-the following directions: east, west, north, south, up or down. He emphasizes that he is not able to move diagonally. 
-Dr Banner says in his email that it takes one minute to move one unit in one of the allowed directions.
-
-Given the description of the 3D jail made by Dr Banner, I have been able to code a representation of it. In particular, 
-the jail will be represented by a 3D String array (jail[level][rows][columns]) of one-character String. Each character 
-describes one cell of the jail. A cell of indestructible rock is indicated by a “#” and empty cells are represented by a 
-“.”. The current position of Dr Banner (i.e., the starting point) is represented by “S” and the exit of the jail by the letter “E”.
-
-For this assignment, you will complete the function public static int find_exit(String[][][] jail), which receives as a parameter 
-the (jail[level][rows][columns]) and returns an integer representing the shortest time it takes for Dr Banner to escape from 
-the 3D jail. If it is not possible to escape, the function must return -1.
-*/
-
 public class GraphTraversal {
 
     public static int find_exit(String[][][] jail) {
