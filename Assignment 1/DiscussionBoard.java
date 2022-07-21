@@ -1,4 +1,48 @@
-// No collaborators
+/*
+
+Q3.
+The teaching staff in Comp251 is really happy of how our discussion board (Ed) is working;
+however, we believe there is one function missing. This function will allow us to identify important
+topics (discussed in Ed) by filtering key words. In particular, given a list of messages posted in
+Ed, we want a function that reports the words used by every single user on the discussion board.
+This list must be sorted from most to least used word (i.e., the word with the highest frequency
+must be the first one). In case of a frequency tie, the word needs to be sorted in alphabetical
+order.
+
+Let’s see now some features of the discussion board posts. The list of post will be provided to
+you as an array of strings (String[]), where every slot in the array will contain a message. All
+messages will have the following characteristics.
+
+• Each message is represented in Java as a String.
+• Each message begins with a user’s name of no more than 20 characters.
+• After the name, each message continues with the content of that user’s post all in lower case.
+• The total number of characters across all messages, including spaces, will not exceed 2*10^6.
+
+Given the following list of posts:
+David no no no no nobody never
+Jennifer why ever not
+Parham no not never nobody
+Shishir no never know nobody
+Alvin why no nobody
+Alvin nobody never know why nobody
+David never no nobody
+Jennifer never never nobody no
+
+Your algorithm must return the array [no, nobody, never] (exactly in that order). Those
+three words were used by every single user of our discussion board and they are reported in order
+of frequency (i.e., “no” is the most frequent used word). In case of a tie, the order is decided
+lexicographically.
+
+Now, if the following list of post is given to you:
+David comp
+Maria music
+
+Your algorithm must return an empty array [] given that none of the words in the post was
+used by every single user.
+
+Implemented entire class.
+
+*/
 
 import java.util.*;
 
@@ -95,7 +139,7 @@ public class DiscussionBoard {
     }
 
 
-
+    // testing
     public static void main(String[] args) {
         String[] discussion = {"David no no no no",
                 "Jennifer why ever not",
