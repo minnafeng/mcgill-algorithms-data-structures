@@ -1,5 +1,28 @@
 import java.util.*;
 
+/*
+
+Q2.
+Dr. Robert Bruce Banner contacted me in order to help him with his weight training program. In particular, he is interested
+in creating a program that will allow him to lift 1000kg. Dr Banner has several (positive integers less or equal than 1000) weight plates,
+possibly of different weights, and its goal is to add some of the plates to a bar so that it can train with a weight as 
+close as possible to 1000kg. Given the (possible) case where two numbers are equally close to 1000 (e.g., 995 and 1005), 
+Dr Banner will pick the greater one (in this case 1005).
+
+Let’s see an example to make sure that the question is clear. Imagine that Dr Banner has 4 plates with the following 
+weights [900,500,498,4], then your program must return as answer 1002, because this is the combined weight closest to 1000kg. 
+In particular, the combined weight is composed by the three last plates (500 + 498 + 4 = 1002). In this example, you can find 
+another combination (i.e., 998) that is equally close to 1000kg. This combination is composed by the second and third plates 
+(500 + 498 = 998). Your algorithm must return 1002 as the answer given that Dr Banner will pick the greater one between the 
+two equally close solutions.
+
+Dr Banner is an excellent coder and he is really good in Dynamic Programming; however, he would be busy in a trip to planet Titan
+and he asked me for help. For this question, you will need to complete the function weight, which receives as a parameter a list of 
+positive integers (where each integer is less than or equal than 1000), denoting the weight of each plate. You can safely assume that
+the length of the list is between 1 and 1000. The function must return one integer, the combined weight closest to 1000.
+
+*/
+
 public class DynamicProgramming {
 
     public static boolean optimizes(int sum, int newWeight){ // returns true if adding new weight optimizes solution
