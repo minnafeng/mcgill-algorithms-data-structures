@@ -8,8 +8,6 @@ and linear probing methods. Note that we are using the hash function h to define
 We want to estimate the number of collisions when inserting keys with respect to keys and the
 choice of values for A.
 
-Implemented methods OpenAddressing.probe(), Chaining.chain(), insertKey() (in both Chaining and OpenAddressing), and OpenAddressing.removeKey().
-
 */
 
 import java.io.*;
