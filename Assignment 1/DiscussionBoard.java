@@ -1,24 +1,3 @@
-/*
-
-The teaching staff in Comp251 is really happy of how our discussion board (Ed) is working;
-however, we believe there is one function missing. This function will allow us to identify important
-topics (discussed in Ed) by filtering key words. In particular, given a list of messages posted in
-Ed, we want a function that reports the words used by every single user on the discussion board.
-This list must be sorted from most to least used word (i.e., the word with the highest frequency
-must be the first one). In case of a frequency tie, the word needs to be sorted in alphabetical
-order.
-
-Let’s see now some features of the discussion board posts. The list of post will be provided to
-you as an array of strings (String[]), where every slot in the array will contain a message. All
-messages will have the following characteristics.
-
-• Each message is represented in Java as a String.
-• Each message begins with a user’s name of no more than 20 characters.
-• After the name, each message continues with the content of that user’s post all in lower case.
-• The total number of characters across all messages, including spaces, will not exceed 2*10^6.
-
-*/
-
 import java.util.*;
 
 public class DiscussionBoard {
