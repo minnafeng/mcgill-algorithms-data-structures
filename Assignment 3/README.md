@@ -1,3 +1,5 @@
+# Assignment 3
+
 ## Q1 - GraphTraversal.java 
 
 During Dr Banner mission in the planet Titan, he got captured by the army of Thanos. Dr Banner is currently trapped in a 3D jail and he needs your help to find the quickest way out. In his email, Dr Banner describes the jail to be composed by unit cubes which may or may not be filled with indestructible rock. Dr Banner can only move one unit in the following directions: east, west, north, south, up or down. He emphasizes that he is not able to move diagonally. Dr Banner says in his email that it takes one minute to move one unit in one of the allowed directions.
