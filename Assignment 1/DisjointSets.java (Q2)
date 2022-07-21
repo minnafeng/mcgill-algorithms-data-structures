@@ -1,6 +1,5 @@
 /*
 
-Q2.
 We want to implement a disjoint set data structure with union and find operations. 
 In this question, we model a partition of n elements with distinct integers ranging from 0 to n − 1
 (i.e. each element is represented by an integer in [0, ··· , n − 1], and each integer in [0, ··· , n − 1]
