@@ -1,5 +1,5 @@
 # mcgill-algorithms-data-structures
-McGill COMP 251 - W22  
+McGill COMP 251 taken in W22  
 Prof. David Becerra
 
 ## Assignment 1
