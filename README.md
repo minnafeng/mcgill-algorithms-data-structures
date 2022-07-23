@@ -1,6 +1,7 @@
 # mcgill-algorithms-data-structures
-McGill COMP 251: Algorithms and Data Structures (taken in Winter 2022) 
-Prof. David Becerra
+*McGill COMP 251: Algorithms and Data Structures \
+Prof. David Becerra \
+Winter 2022*
 
 ### Assignment 1
 Topics: hash tables (chaining and open-addressing), disjoint sets, hash maps \
