@@ -1,5 +1,5 @@
 # mcgill-algorithms-data-structures
-McGill COMP 251 taken in W22  
+McGill COMP 251: Algorithms and Data Structures (taken in Winter 2022) 
 Prof. David Becerra
 
 ## Assignment 1
