@@ -8,7 +8,7 @@ Topics: hash tables (chaining and open-addressing), disjoint sets, hash maps \
 Grade obtained: A
 
 ### Assignment 2
-Topics: complete search, dynamic progamming, greedy, divide and conquer \
+Topics: complete search, dynamic programming, greedy, divide and conquer \
 Grade obtained: A
 
 ### Assignment 3
